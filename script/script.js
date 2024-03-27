@@ -26,7 +26,7 @@ function getResult() {
         let ans = eval(equation);
         
         document.getElementById('display').value = ans;
-        equation = "";
+        equation = ans;
     } catch (error) {
         document.getElementById('display').value = "Error";
 
